@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\[Development]\\[API]\\TrentWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|d:\\[development]\\[api]\\trentwebapi\\trentwebapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|solutionrelative:trentwebapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|d:\\[development]\\[api]\\trentwebapi\\trentwebapi\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|solutionrelative:trentwebapi\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|d:\\[development]\\[api]\\trentwebapi\\trentwebapi\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|solutionrelative:trentwebapi\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|d:\\[development]\\[api]\\trentwebapi\\trentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|solutionrelative:trentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|d:\\[development]\\[api]\\trentwebapi\\trentwebapi\\auth\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81106C84-00BA-4F23-9051-FD477990F245}|TrentWebApi\\TrentWebApi.csproj|solutionrelative:trentwebapi\\auth\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "TrentWebApi\\Controllers\\MemberController.cs",
-              "ToolTip": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "TrentWebApi\\Controllers\\MemberController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwFEAAAA0AAAA",
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Auth\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "TrentWebApi\\Auth\\ApiKeyMiddleware.cs",
+              "ToolTip": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Auth\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "TrentWebApi\\Auth\\ApiKeyMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:33:51.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Member.cs",
-              "DocumentMoniker": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "TrentWebApi\\Models\\Member.cs",
-              "ToolTip": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Models\\Member.cs",
-              "RelativeToolTip": "TrentWebApi\\Models\\Member.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:31:50.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Data\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "TrentWebApi\\Data\\ApiDbContext.cs",
-              "ToolTip": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Data\\ApiDbContext.cs",
-              "RelativeToolTip": "TrentWebApi\\Data\\ApiDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:29:51.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "TrentWebApi\\Program.cs",
-              "ToolTip": "D:\\[Development]\\[API]\\TrentWebApi\\TrentWebApi\\Program.cs",
-              "RelativeToolTip": "TrentWebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:28:44.047Z",
+              "WhenOpened": "2024-07-29T00:29:40.582Z",
               "EditorCaption": ""
             }
           ]
