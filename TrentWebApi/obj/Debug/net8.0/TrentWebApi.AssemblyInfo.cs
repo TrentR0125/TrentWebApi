@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrentWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f9f1b82fb6eec9e12b87a338d8f9db7dcb65a2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0930bdc245d1a6bdbed938e19282dc7586acd5d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrentWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrentWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

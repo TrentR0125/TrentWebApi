@@ -20,6 +20,42 @@ namespace TrentWebApi.Controllers
 
         // i typically use Json to return stuff but im too lazy to find the package that has it
 
+        [HttpPut("UpdateMember/{MemberId}")]
+        public async Task<IActionResult> UpdateMember([FromRoute] int MemberId, [FromBody] Member member)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Invalid data.");
+                }
+
+                Member chosen = await _apiDb.Members
+                    .Where(m => m.MemberId == MemberId)
+                    .FirstOrDefaultAsync();
+
+                if (chosen != null)
+                {
+                    chosen.MemberId = member.MemberId;
+                    chosen.Name = member.Name;
+                    chosen.IsAdmin = member.IsAdmin;
+
+                    _apiDb.Members.Update(chosen);
+                    await _apiDb.SaveChangesAsync();
+
+                    return Ok($"{chosen.Name} has been updated.");
+                }
+                else
+                {
+                    return NotFound("There is no member with that Id.");
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Internal Server error: {ex.Message}");
+            }
+        }
+
         [HttpPost("CreateMember")]
         public async Task<IActionResult> CreateMember([FromBody] Member member)
         {
